@@ -1,0 +1,45 @@
+{
+	"short_name": "Grest",
+	"name": "Musica Grest",
+	"icons": [
+		{
+			"src": "/assets/manifest/images_192px.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "/assets/manifest/images_512px.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	],
+	"id": "/pwa.js",
+	"start_url": "/",
+	"background_color": "#3367D6",
+	"display": "standalone",
+	"scope": "/",
+	"theme_color": "#3367D6",
+	"shortcuts": [
+		{
+			"name": "Musica Grest :D",
+			"short_name": "Musica",
+			"description": "Wisky",
+			"url": "/renso",
+			"icons": [
+				{
+					"src": "/assets/manifest/images_192px.png",
+					"sizes": "192x192"
+				}
+			]
+		}
+	],
+	"description": "Sito del Grest per la musica",
+	"screenshots": [
+		{
+			"src": "/assets/manifest/renso.jpg",
+			"type": "image/png",
+			"sizes": "540x720",
+			"form_factor": "narrow"
+		}
+	]
+}
