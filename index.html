@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 
 	<head>
 		<meta charset="UTF-8">
@@ -9,9 +9,9 @@
 		<!-- 
     	- primary meta tags
   		-->
-		<title>Music Player</title>
-		<meta name="title" content="Music Player">
-		<meta name="description" content="A web music player html template made by codewithsadee">
+		<title>Musica Grest</title>
+		<meta name="title" content="Musica Grest">
+		<meta name="description" content="Qui potrai trovare tutte le canzoni usate nel grest 2024 di Camalò Povegliano e Santandrà">
 		<!-- 
     	- favicon
   		-->
@@ -46,15 +46,6 @@
 				<h1 class="title-lg">Music Player</h1>
 			</div>
 
-			<div class="search-container">
-				<div class="search-icon" onclick="toggleSearch()">
-					<img src="./assets/images/search-bar.png" alt="Search">
-				</div>
-				<div class="search-box" id="searchBox">
-					<input type="text" class="search-input" placeholder="Cerca...">
-				</div>
-			</div>
-
 			<div class="top-bar-actions">
 				<button class="btn-icon" data-playlist-toggler>
 					<span class="material-symbols-rounded">queue_music</span>
@@ -70,7 +61,8 @@
 					<div class="container">
 
 						<figure class="music-banner">
-							<img src="./assets/images/poster-1.jpg" width="800" height="800" alt="Happy Moments (Master) Album Poster" class="img-cover" data-player-banner>
+							<img src="./assets/images/poster-1.jpg" width="800" height="800"
+								alt="Happy Moments (Master) Album Poster" class="img-cover" data-player-banner>
 						</figure>
 
 						<div class="music-content">
@@ -86,7 +78,8 @@
 
 								<div>
 									<div class="range-wrapper">
-										<input type="range" step="1" max="60" value="0" class="range" data-range data-seek>
+										<input type="range" step="1" max="60" value="0" class="range" data-range
+											data-seek>
 
 										<div class="range-fill" data-range-fill></div>
 									</div>
@@ -147,6 +140,17 @@
         		- #PLAYLIST
       			-->
 				<div class="playlist" data-playlist>
+
+					<div class="search-container">
+						<div class="search-icon" onclick="toggleSearch()">
+							<img src="./assets/images/search-bar.png" alt="Search">
+						</div>
+						<div class="search-box" id="searchBox">
+							<div id="fake-box"></div>
+							<input type="text" id="search-input" onkeyup="search_song_by_title()" placeholder="Cerca...">
+						</div>
+					</div>
+
 					<ul class="music-list" data-music-list></ul>
 				</div>
 
@@ -158,6 +162,7 @@
     	- custom js link
   		-->
 		<script src="./assets/js/script.js"></script>
-		<script src="./assets/js/searchbar.js"></script>
+		<script src="./assets/js/searchbar copy.js"></script>
 	</body>
+
 </html>

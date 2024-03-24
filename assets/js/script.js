@@ -3,13 +3,13 @@
 * all music information
 */
 
-const musicData = [
+var musicData = [
 	{
 		backgroundImage: "",
 		posterUrl: "",
 		title: "Ancorati al cielo",
 		album: "bans",
-		year: 2022,
+		year: 2013,
 		artist: "",
 		musicPath: "./assets/music/bans/Ancorati al cielo.mp3",
 	},
@@ -27,7 +27,7 @@ const musicData = [
 		posterUrl: "",
 		title: "Chocolate",
 		album: "bans",
-		year: 2022,
+		year: 2021,
 		artist: "",
 		musicPath: "./assets/music/bans/Chocolate.mp3",
 	},
@@ -252,11 +252,16 @@ const musicData = [
 		posterUrl: "",
 		title: "Wunder",
 		album: "bans",
-		year: 2022,
+		year: 2019,
 		artist: "",
 		musicPath: "./assets/music/bans/Wunder.mp3",
 	}
 ];
+
+function getSongsArray(){
+	return musicData;
+}
+
 /**
  * add eventListnere on all elements that are passed
  */

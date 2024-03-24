@@ -1,7 +1,8 @@
 .search-container {
 	display: flex;
+	position: relative;
 	align-items: center;
-	justify-content: flex-end;
+	justify-content: center;
 	padding: 10px;
 }
 
@@ -14,8 +15,28 @@
 	padding: 10px;
 }
 
-.search-input {
-	width: 200px;
+#search-input {
+	display: flex;
+	max-width: 120px;
+	width: auto;
 	padding: 8px;
 	font-size: 16px;
+	transition: all 300ms ease-in-out;
+	border-bottom: 1px solid black;
+	outline: none;
+	color: white;
+}
+
+#search-input:focus {
+	border-top: 1px solid black;
+	border-bottom: 0;
+	border-radius: 20px;
+}
+
+#search-input:hover {
+	color: aqua;
+}
+
+#fake-box {
+	transform: scale(3);
 }
