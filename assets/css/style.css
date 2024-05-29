@@ -401,6 +401,23 @@ body:hover::-webkit-scrollbar-thumb {
 	overflow: hidden;
 }
 
+.list-item {
+	width: 15vh;
+	height: 15vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: x-large;
+}
+
+.list-item p {
+	position: absolute;
+	align-items: center;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
 .music-item .item-icon {
 	position: absolute;
 	inset: 0;
