@@ -5,7 +5,7 @@
 
 var musicData = [
 	{
-		posterUrl: "./asstes/images/renso.png",
+		posterUrl: "./assets/images/renso.png",
 		title: "Ancorati al cielo",
 		album: "bans",
 		year: 2013,
@@ -13,7 +13,7 @@ var musicData = [
 		musicPath: "./assets/music/bans/Ancorati al cielo.mp3",
 	},
 	{
-		posterUrl: "./asstes/images/renso.png",
+		posterUrl: "./assets/images/renso.png",
 		title: "Che bello",
 		album: "bans",
 		year: 2013,
@@ -21,7 +21,7 @@ var musicData = [
 		musicPath: "./assets/music/bans/Che bello.mp3",
 	},
 	{
-		posterUrl: "./asstes/images/renso.png",
+		posterUrl: "./assets/images/renso.png",
 		title: "Chocolate",
 		album: "bans",
 		year: 2021,
@@ -29,7 +29,7 @@ var musicData = [
 		musicPath: "./assets/music/bans/Chocolate.mp3",
 	},
 	{
-		posterUrl: "./asstes/images/renso.png",
+		posterUrl: "./assets/images/renso.png",
 		title: "Da Mi Animas",
 		album: "bans",
 		year: 2013,
@@ -37,7 +37,7 @@ var musicData = [
 		musicPath: "./assets/music/bans/Da Mi Animas.mp3",
 	},
 	{
-		posterUrl: "./asstes/images/renso.png",
+		posterUrl: "./assets/images/renso.png",
 		title: "Danza Kuduro",
 		album: "bans",
 		year: 2010,
@@ -45,7 +45,7 @@ var musicData = [
 		musicPath: "./assets/music/bans/Danza Kuduro.mp3",
 	},
 	{
-		posterUrl: "./asstes/images/renso.png",
+		posterUrl: "./assets/images/renso.png",
 		title: "El Simbolo",
 		album: "bans",
 		year: 2014,
@@ -53,7 +53,7 @@ var musicData = [
 		musicPath: "./assets/music/bans/El Simbolo.mp3",
 	},
 	{
-		posterUrl: "./asstes/images/renso.png",
+		posterUrl: "./assets/images/renso.png",
 		title: "Fiesta Celestial",
 		album: "bans",
 		year: 2012,
@@ -61,7 +61,7 @@ var musicData = [
 		musicPath: "./assets/music/bans/Fiesta Celestial.mp3",
 	},
 	{
-		posterUrl: "./asstes/images/renso.png",
+		posterUrl: "./assets/images/renso.png",
 		title: "Fuori di tenda",
 		album: "bans",
 		year: 2011,
@@ -69,7 +69,7 @@ var musicData = [
 		musicPath: "./assets/music/bans/Fuori di tenda.mp3",
 	},
 	{
-		posterUrl: "./asstes/images/renso.png",
+		posterUrl: "./assets/images/renso.png",
 		title: "Galopea",
 		album: "bans",
 		year: 2024,
@@ -77,7 +77,7 @@ var musicData = [
 		musicPath: "./assets/music/bans/Galopea.mp3",
 	},
 	{
-		posterUrl: "./asstes/images/renso.png",
+		posterUrl: "./assets/images/renso.png",
 		title: "Geronimo",
 		album: "bans",
 		year: 2011,
@@ -85,7 +85,7 @@ var musicData = [
 		musicPath: "./assets/music/bans/Geronimo.mp3",
 	},
 	{
-		posterUrl: "./asstes/images/renso.png",
+		posterUrl: "./assets/images/renso.png",
 		title: "Grande Chef",
 		album: "bans",
 		year: 2011,
@@ -93,7 +93,7 @@ var musicData = [
 		musicPath: "./assets/music/bans/Grande Chef.mp3",
 	},
 	{
-		posterUrl: "./asstes/images/renso.png",
+		posterUrl: "./assets/images/renso.png",
 		title: "I russi",
 		album: "intrattenimento",
 		year: 2012,
@@ -101,7 +101,7 @@ var musicData = [
 		musicPath: "./assets/music/intrattenimento/RUSSI.mp3",
 	},
 	{
-		posterUrl: "./asstes/images/renso.png",
+		posterUrl: "./assets/images/renso.png",
 		title: "Il ballo di Alvin",
 		album: "bans",
 		year: 2016,
@@ -109,7 +109,7 @@ var musicData = [
 		musicPath: "./assets/music/bans/Il ballo di Alvin.mp3",
 	},
 	{
-		posterUrl: "./asstes/images/renso.png",
+		posterUrl: "./assets/images/renso.png",
 		title: "Jumpin Up",
 		album: "bans",
 		year: 2018,
@@ -117,7 +117,7 @@ var musicData = [
 		musicPath: "./assets/music/bans/Jumpin Up.mp3",
 	},
 	{
-		posterUrl: "./asstes/images/renso.png",
+		posterUrl: "./assets/images/renso.png",
 		title: "Le nubi di Anubi",
 		album: "bans",
 		year: 2013,
@@ -125,7 +125,7 @@ var musicData = [
 		musicPath: "./assets/music/bans/le nubi di anubi.mp3",
 	},
 	{
-		posterUrl: "./asstes/images/renso.png",
+		posterUrl: "./assets/images/renso.png",
 		title: "Limbo",
 		album: "bans",
 		year: 2022,
@@ -133,7 +133,7 @@ var musicData = [
 		musicPath: "./assets/music/bans/Limbo.mp3",
 	},
 	{
-		posterUrl: "./asstes/images/renso.png",
+		posterUrl: "./assets/images/renso.png",
 		title: "Love",
 		album: "bans",
 		year: 2019,
@@ -141,7 +141,7 @@ var musicData = [
 		musicPath: "./assets/music/bans/LOVE.mp3",
 	},
 	{
-		posterUrl: "./asstes/images/renso.png",
+		posterUrl: "./assets/images/renso.png",
 		title: "Moto Moto",
 		album: "bans",
 		year: 2020,
@@ -149,7 +149,7 @@ var musicData = [
 		musicPath: "./assets/music/bans/moto moto.mp3",
 	},
 	{
-		posterUrl: "./asstes/images/renso.png",
+		posterUrl: "./assets/images/renso.png",
 		title: "Pokémon",
 		album: "bans",
 		year: 2017,
@@ -157,7 +157,7 @@ var musicData = [
 		musicPath: "./assets/music/bans/POKEMON.mp3",
 	},
 	{
-		posterUrl: "./asstes/images/renso.png",
+		posterUrl: "./assets/images/renso.png",
 		title: "Replug & Play",
 		album: "bans",
 		year: 2018,
@@ -165,7 +165,7 @@ var musicData = [
 		musicPath: "./assets/music/bans/Replug e Play.mp3",
 	},
 	{
-		posterUrl: "./asstes/images/renso.png",
+		posterUrl: "./assets/images/renso.png",
 		title: "Ritmo Vuelta",
 		album: "bans",
 		year: 2023,
@@ -173,7 +173,7 @@ var musicData = [
 		musicPath: "./assets/music/bans/RITMO VUELTA.mp3",
 	},
 	{
-		posterUrl: "./asstes/images/renso.png",
+		posterUrl: "./assets/images/renso.png",
 		title: "Salta!",
 		album: "bans",
 		year: "???",
@@ -181,7 +181,7 @@ var musicData = [
 		musicPath: "./assets/music/bans/Salta.mp3",
 	},
 	{
-		posterUrl: "./asstes/images/renso.png",
+		posterUrl: "./assets/images/renso.png",
 		title: "Segno nel sogno",
 		album: "bans",
 		year: 2012,
@@ -189,7 +189,7 @@ var musicData = [
 		musicPath: "./assets/music/bans/Segno nel Sogno.mp3",
 	},
 	{
-		posterUrl: "./asstes/images/renso.png",
+		posterUrl: "./assets/images/renso.png",
 		title: "Smack",
 		album: "bans",
 		year: 2013,
@@ -197,7 +197,7 @@ var musicData = [
 		musicPath: "./assets/music/bans/Smack.mp3",
 	},
 	{
-		posterUrl: "./asstes/images/renso.png",
+		posterUrl: "./assets/images/renso.png",
 		title: "Soco Bate Vira",
 		album: "intrattenimento",
 		year: 2011,
@@ -205,7 +205,7 @@ var musicData = [
 		musicPath: "./assets/music/intrattenimento/Soco Bate Vira.mp3",
 	},
 	{
-		posterUrl: "./asstes/images/renso.png",
+		posterUrl: "./assets/images/renso.png",
 		title: "Vivilà",
 		album: "bans",
 		year: "???",
@@ -213,7 +213,7 @@ var musicData = [
 		musicPath: "./assets/music/bans/Vivilà.mp3",
 	},
 	{
-		posterUrl: "./asstes/images/renso.png",
+		posterUrl: "./assets/images/renso.png",
 		title: "Volar",
 		album: "bans",
 		year: 2018,
@@ -221,7 +221,7 @@ var musicData = [
 		musicPath: "./assets/music/bans/Volar.mp3",
 	},
 	{
-		posterUrl: "./asstes/images/renso.png",
+		posterUrl: "./assets/images/renso.png",
 		title: "W LO SPORT",
 		album: "bans",
 		year: 2016,
@@ -229,7 +229,7 @@ var musicData = [
 		musicPath: "./assets/music/bans/W LO SPORT.mp3",
 	},
 	{
-		posterUrl: "./asstes/images/renso.png",
+		posterUrl: "./assets/images/renso.png",
 		title: "Waka Waka",
 		album: "bans",
 		year: 2010,
@@ -237,7 +237,7 @@ var musicData = [
 		musicPath: "./assets/music/bans/Waka Waka.mp3",
 	},
 	{
-		posterUrl: "./asstes/images/renso.png",
+		posterUrl: "./assets/images/renso.png",
 		title: "wake me up",
 		album: "bans",
 		year: 2015,
@@ -245,7 +245,7 @@ var musicData = [
 		musicPath: "./assets/music/bans/Wake Me Up.mp3",
 	},
 	{
-		porsterUrl: "./asstes/images/renso.png",
+		posterUrl: "./assets/images/renso.png",
 		title: "Wunder",
 		album: "bans",
 		year: 2019,
