@@ -47,9 +47,9 @@ function search_song_by_title() {
 			const originalIndex = musicData.findIndex(originalSong => originalSong.title === song.title);
 			const songItemHTML = `
 			<li>
-				<button class="music-item ${i === 0 ? "playing" : ""}" data-playlist-toggler data-playlist-item="${i}">
+				<button class="music-item ${originalIndex == 0 ? "playing" : ""}" data-playlist-toggler data-playlist-item="${originalIndex}">
 				  	<div class="list-item">
-						<p>${musicData[i].title}</p>
+						<p>${musicData[originalIndex].title}</p>
 					</div>
 					<div class="item-icon">
 						<span class="material-symbols-rounded">equalizer</span>
@@ -57,7 +57,7 @@ function search_song_by_title() {
 				</button>
 			</li>
 			`;
-
+			
 			// Aggiungere la canzone alla lista
 			musicList.innerHTML += songItemHTML;
 		});
