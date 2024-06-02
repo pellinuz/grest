@@ -46,14 +46,16 @@ function search_song_by_title() {
 		songs.forEach(song => {
 			const originalIndex = musicData.findIndex(originalSong => originalSong.title === song.title);
 			const songItemHTML = `
-				<li>
-					<button class="music-item" data-playlist-toggler data-playlist-item="${originalIndex}">
-						<img src="${song.posterUrl}" width="800" height="800" alt="${song.title} Album Poster" class="img-cover">
-						<div class="item-icon">
-							<span class="material-symbols-rounded">equalizer</span>
-						</div>
-					</button>
-				</li>
+			<li>
+				<button class="music-item ${i === 0 ? "playing" : ""}" data-playlist-toggler data-playlist-item="${i}">
+				  	<div class="list-item">
+						<p>${musicData[i].title}</p>
+					</div>
+					<div class="item-icon">
+						<span class="material-symbols-rounded">equalizer</span>
+					</div>
+				</button>
+			</li>
 			`;
 
 			// Aggiungere la canzone alla lista
