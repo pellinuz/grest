@@ -122,7 +122,7 @@ var musicData = [
 		album: "bans",
 		year: 2024,
 		artist: "",
-		musicPath: "./assets/music/bans/JUST JUNGLEp.mp3",
+		musicPath: "./assets/music/bans/JUST JUNGLE.mp3",
 	},
 	{
 		posterUrl: "./assets/images/renso.png",
