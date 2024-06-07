@@ -118,6 +118,14 @@ var musicData = [
 	},
 	{
 		posterUrl: "./assets/images/renso.png",
+		title: "Just jungle",
+		album: "bans",
+		year: 2024,
+		artist: "",
+		musicPath: "./assets/music/bans/JUST JUNGLEp.mp3",
+	},
+	{
+		posterUrl: "./assets/images/renso.png",
 		title: "Le nubi di Anubi",
 		album: "bans",
 		year: 2013,
