@@ -98,7 +98,7 @@ var musicData = [
 		album: "intrattenimento",
 		year: 2012,
 		artist: "",
-		musicPath: "./assets/music/intrattenimento/RUSSI.mp3",
+		musicPath: "./assets/music/intrattenimento/Russi.mp3",
 	},
 	{
 		posterUrl: "./assets/images/renso.png",
