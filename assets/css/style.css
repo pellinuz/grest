@@ -99,6 +99,8 @@ html {
 	font-family: var(--ff-inter);
 	font-size: 10px;
 	scroll-behavior: smooth;
+	height: 100%;
+	width: 100%;
 }
 
 body {
@@ -106,12 +108,10 @@ body {
 	color: var(--on-background);
 	font-size: 1.6rem;
 	line-height: 1.5;
-	min-height: 100vh;
-	min-width: 250px;
-	background-image: url("../images/poster-1.jpg");
-	background-size: 150%;
-	background-repeat: no-repeat;
-	background-position: top;
+	width: 100vw;
+	background: url("../images/poster-1.jpg") no-repeat;
+	background-size: cover;
+	background-position: center;
 	overflow: overlay;
 }
 
@@ -470,7 +470,20 @@ body:hover::-webkit-scrollbar-thumb {
  * responsive for large than 575px screen
  */
 
-@media (min-width: 575px) {
+@media (max-width: 992px) {
+
+	.playlist {
+		width: 300px;
+	}
+
+	.music-list{
+		width: 250px;
+	}
+	.music-item .list-item {
+		height: 50px;
+		width: 250px;
+		font-size: 2.3rem;
+	}
 
 	/**
    * RESET
@@ -478,13 +491,14 @@ body:hover::-webkit-scrollbar-thumb {
 
 	body {
 		background-size: 100%;
+		background-position: center;
+		background: url("../images/poster-1.jpg") no-repeat;
+		background-color: var(--background);
 	}
 
-
-
 	/**
-   * PLAYER
-   */
+* PLAYER
+*/
 
 	.player {
 		justify-content: center;
@@ -493,11 +507,7 @@ body:hover::-webkit-scrollbar-thumb {
 	.player .container {
 		max-width: 540px;
 	}
-
 }
-
-
-
 
 
 /**
@@ -527,10 +537,10 @@ body:hover::-webkit-scrollbar-thumb {
    * RESET
    */
 
-	body {
+	/*body {
 		background-size: 40% 100%;
 		background-position: left center;
-	}
+	}*/
 
 	article {
 		display: flex;
