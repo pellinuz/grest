@@ -94,14 +94,6 @@ var musicData = [
 	},
 	{
 		posterUrl: "./assets/images/renso.png",
-		title: "Hokey Pokey",
-		album: "bans",
-		year: 2025,
-		artist: "",
-		musicPath: "./assets/music/bans/Hokey Pokey.mp3",
-	},
-	{
-		posterUrl: "./assets/images/renso.png",
 		title: "I russi",
 		album: "intrattenimento",
 		year: 2012,
@@ -115,14 +107,6 @@ var musicData = [
 		year: 2016,
 		artist: "",
 		musicPath: "./assets/music/bans/Il ballo di Alvin.mp3",
-	},
-	{
-		posterUrl: "./assets/images/renso.png",
-		title: "Il Geco mangia mosca",
-		album: "bans",
-		year: 2025,
-		artist: "",
-		musicPath: "./assets/music/bans/Il Geco Mangia Mosca.mp3",
 	},
 	{
 		posterUrl: "./assets/images/renso.png",
@@ -284,17 +268,17 @@ const playlist = document.querySelector("[data-music-list]");
 
 for (let i = 0, len = musicData.length; i < len; i++) {
 	playlist.innerHTML += `
-  	<li>
-    	<button class="music-item ${i === 0 ? "playing" : ""}" data-playlist-toggler data-playlist-item="${i}">
-      		<div class="list-item">
+	<li>
+		<button class="music-item ${i === 0 ? "playing" : ""}" data-playlist-toggler data-playlist-item="${i}">
+			<div class="list-item">
 				<p>${musicData[i].title}</p>
 			</div>
-      		<div class="item-icon">
-        		<span class="material-symbols-rounded">equalizer</span>
-      		</div>
-    	</button>
-  	</li>
-  `;
+			<div class="item-icon">
+				<span class="material-symbols-rounded">equalizer</span>
+			</div>
+		</button>
+	</li>
+	`;
 }
 /**
  * PLAYLIST MODAL SIDEBAR TOGGLE
