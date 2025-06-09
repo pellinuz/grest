@@ -402,8 +402,8 @@ body:hover::-webkit-scrollbar-thumb {
 }
 
 .list-item {
-	width: 15vh;
-	height: 15vh;
+	width: 150px;
+	height: 150px;
 	display: flex;
 	justify-content: center;
 	align-items: center;

@@ -243,8 +243,117 @@ var musicData = [
 		year: 2019,
 		artist: "",
 		musicPath: "./assets/music/bans/Wunder.mp3",
+	},
+	{
+		posterUrl: "./assets/images/renso.png",
+		title: "DIVISORIO",
+		album: "bans",
+		year: 2019,
+		artist: "",
+		musicPath: "./assets/music/bans/DIVISORIO.mp3",
+	},
+	{
+		posterUrl: "./assets/images/renso.png",
+		title: "Baila como el papu",
+		album: "bans",
+		year: "???",
+		artist: "",
+		musicPath: "./assets/music/intrattenimento/Baila Como El Papu.mp3",
+	},
+	{
+		posterUrl: "./assets/images/renso.png",
+		title: "Bicicletta",
+		album: "bans",
+		year: "???",
+		artist: "",
+		musicPath: "./assets/music/intrattenimento/bicicletta.mp3",
+	},
+	{
+		posterUrl: "./assets/images/renso.png",
+		title: "Chu chu ua",
+		album: "bans",
+		year: "???",
+		artist: "",
+		musicPath: "./assets/music/intrattenimento/Chu chu ua.mp3",
+	},
+	{
+		posterUrl: "./assets/images/renso.png",
+		title: "Cotton Eye Joe",
+		album: "bans",
+		year: "???",
+		artist: "",
+		musicPath: "./assets/music/intrattenimento/Cotton Eye Joe.mp3",
+	},
+	{
+		posterUrl: "./assets/images/renso.png",
+		title: "Gioca Jouer",
+		album: "bans",
+		year: "???",
+		artist: "",
+		musicPath: "./assets/music/intrattenimento/Gioca Jouer.mp3",
+	},
+	{
+		posterUrl: "./assets/images/renso.png",
+		title: "La bomba",
+		album: "bans",
+		year: "???",
+		artist: "",
+		musicPath: "./assets/music/intrattenimento/La Bomba.mp3",
+	},
+	{
+		posterUrl: "./assets/images/renso.png",
+		title: "La canzone del capitano uncino",
+		album: "bans",
+		year: "???",
+		artist: "",
+		musicPath: "./assets/music/intrattenimento/La Canzone Del Capitano Uncino.mp3",
+	},
+	{
+		posterUrl: "./assets/images/renso.png",
+		title: "La Macarena",
+		album: "intrattenimento",
+		year: "???",
+		artist: "",
+		musicPath: "./assets/music/intrattenimento/La Macarena.mp3",
+	},
+	{
+		posterUrl: "./assets/images/renso.png",
+		title: "Mueve la colita",
+		album: "bans",
+		year: "???",
+		artist: "",
+		musicPath: "./assets/music/intrattenimento/Mueve La Colita.mp3",
+	},
+	{
+		posterUrl: "",
+		title: "YMCA",
+		album: "bans",
+		year: "???",
+		artist: "",
+		musicPath: "./assets/music/intrattenimento/YMCA.mp3",
 	}
 ];
+
+/**
+ * random cat image
+ */
+
+async function randomCat() {
+	try {
+		const response = await fetch("https://api.thecatapi.com/v1/images/search");
+		const data = await response.json();
+		return data[0].url; // restituisce solo l’URL
+	} catch (error) {
+		console.error("Errore nel caricamento dell'immagine del gatto:", error);
+		return "./assets/images/renso.png"; // fallback
+	}
+}
+
+
+// Mostra un gatto all'avvio
+window.onload = randomCat;
+
+
 
 function getSongsArray(){
 	return musicData;
@@ -336,8 +445,9 @@ const playerArtist = document.querySelector("[data-artist]");
 
 const audioSource = new Audio(musicData[currentMusic].musicPath);
 
-const changePlayerInfo = function () {
-	playerBanner.src = musicData[currentMusic].posterUrl;
+const changePlayerInfo = async function () {
+	const imgUrl = await randomCat();
+	playerBanner.src = imgUrl;
 	playerBanner.setAttribute("alt", `${musicData[currentMusic].title} Album Poster`);
 	document.body.style.backgroundImage = `url(${musicData[currentMusic].posterUrl})`;
 	playerTitle.textContent = musicData[currentMusic].title;
@@ -398,7 +508,7 @@ playBtn.addEventListener("click", playMusic);
 
 /** update running time while playing music */
 
-const playerRunningTime = document.querySelector("[data-running-time");
+const playerRunningTime = document.querySelector("[data-running-time]");
 
 const updateRunningTime = function () {
 	playerSeekRange.value = audioSource.currentTime;
