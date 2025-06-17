@@ -222,6 +222,14 @@ var musicData = [
 	},
 	{
 		posterUrl: "./assets/images/renso.png",
+		title: "Sofia",
+		album: "bans",
+		year: 2016,
+		artist: "",
+		musicPath: "./assets/music/bans/Sofia.mp3",
+	},
+	{
+		posterUrl: "./assets/images/renso.png",
 		title: "W LO SPORT",
 		album: "bans",
 		year: 2016,
