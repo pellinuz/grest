@@ -19,7 +19,7 @@
 	"display": "standalone",
 	"scope": "/grest/",
 	"theme_color": "#3367D6",
-	"shortcuts": [
+	"shortcut": [
 		{
 			"name": "Musica Grest :D",
 			"short_name": "Musica",

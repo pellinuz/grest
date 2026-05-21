@@ -46,6 +46,14 @@ var musicData = [
 	},
 	{
 		posterUrl: "./assets/images/renso.png",
+		title: "Ding Dong",
+		album: "bans",
+		year: 2026,
+		artist: "",
+		musicPath: "./assets/music/bans/Ding Dong.mp3",
+	},
+	{
+		posterUrl: "./assets/images/renso.png",
 		title: "El Simbolo",
 		album: "bans",
 		year: 2014,

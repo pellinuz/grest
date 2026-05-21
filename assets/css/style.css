@@ -470,19 +470,25 @@ body:hover::-webkit-scrollbar-thumb {
  * responsive for large than 575px screen
  */
 
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
 
 	.playlist {
 		width: 300px;
+		display: "";
 	}
 
-	.music-list{
+	.music-list {
 		width: 250px;
 	}
+
 	.music-item .list-item {
 		height: 50px;
 		width: 250px;
 		font-size: 2.3rem;
+	}
+
+	.top-bar-actions {
+		display: flex;
 	}
 
 	/**
@@ -514,7 +520,7 @@ body:hover::-webkit-scrollbar-thumb {
  * responsive for large than 992px screen
  */
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
 
 	/**
    * CUSTOM PROPERTY
@@ -661,11 +667,17 @@ body:hover::-webkit-scrollbar-thumb {
 	}
 
 	.playlist {
+		display: flex;
+		justify-content: center;
 		position: static;
 		visibility: visible;
 		border-radius: 0;
 		box-shadow: none;
 		flex-shrink: 0;
+	}
+
+	.music-list {
+		gap: 28px;
 	}
 
 	.playlist.active {
@@ -680,18 +692,6 @@ body:hover::-webkit-scrollbar-thumb {
 		font-size: 3.6rem;
 	}
 
-}
-
-
-
-
-
-/**
- * responsive for large than 1200px screen
- */
-
-@media (min-width: 1200px) {
-
 	/**
    * PLAYLIST
    */
@@ -699,10 +699,6 @@ body:hover::-webkit-scrollbar-thumb {
 	.playlist {
 		padding: 32px;
 		width: 220px;
-	}
-
-	.music-list {
-		gap: 28px;
 	}
 
 }
